@@ -1,0 +1,29 @@
+body {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: rgba(169, 169, 169, 0.537);
+}
+
+h1 {
+    background: rgb(31,0,208);
+    background: -webkit-radial-gradient(circle, rgba(18, 18, 18, 0.337) 0%, rgb(94, 92, 91) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+input, button {
+    border-radius: 25px;
+    margin: 0.3em;
+    box-shadow: 5px 5px 5px;
+}
+
+button {
+    cursor: pointer;
+}
+
+ul {
+    list-style: none;
+    color: grey;
+}
